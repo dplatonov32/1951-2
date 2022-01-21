@@ -1,7 +1,6 @@
 // def lib = library identifier: 'library-test@master', retriever: legacySCM(scm);
 node() {
-    def lib = libraryFromLocalRepo().vars.hello
-    lib.call()
+    def lib = libraryFromLocalRepo()
 }
 
 def libraryFromLocalRepo() {
