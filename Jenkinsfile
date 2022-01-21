@@ -1,0 +1,1 @@
+semaphore BRANCH_NAME; def lib = library identifier: 'stuff@snapshot', retriever: legacySCM(scm); greet(lib.pkg.Clazz.whereAmI())
