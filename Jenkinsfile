@@ -1,2 +1,2 @@
-def lib = library identifier: 'global@PR-1';
+def lib = library identifier: 'global@snapshot';
 greet(lib.pkg.Clazz.whereAmI())
