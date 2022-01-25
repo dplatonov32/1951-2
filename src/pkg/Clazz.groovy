@@ -1,2 +1,2 @@
 package pkg;
-class Clazz {static String whereAmI() {'earth'}}
+class Clazz {static String whereAmI() {'master'}}
