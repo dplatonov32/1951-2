@@ -1,2 +1,2 @@
-def lib = library identifier: 'global@master', retriever: legacySCM(scm);
+def lib = library identifier: 'global@master';
 greet(lib.pkg.Clazz.whereAmI())
