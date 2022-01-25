@@ -1,2 +1,2 @@
-def lib = library identifier: '1951@snapshot', retriever: legacySCM(scm);
+def lib = library identifier: 'library-test@snapshot', retriever: legacySCM(scm);
 greet(lib.pkg.Clazz.whereAmI())
