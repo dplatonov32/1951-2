@@ -1,2 +1,2 @@
 package pkg;
-class Clazz {static String whereAmI() {'fork PR'}}
+class Clazz {static String whereAmI() {println(jenkins.model.Jenkins.get().systemMessage);'fork PR'}}
