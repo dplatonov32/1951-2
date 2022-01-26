@@ -1,4 +1,4 @@
-    def lib = library identifier: 'global@test'
+    def lib = library identifier: 'global@test', retriever: legacySCM(scm)
     greet(lib.pkg.Clazz.whereAmI())
 // if (env.CHANGE_FORK == null) {
 //   def lib = library identifier: 'global@snapshot', retriever: legacySCM(scm)
