@@ -1,6 +1,6 @@
 // def lib = library identifier: 'folder@snapshot', retriever: legacySCM(scm)    
 @Library('folder')_
-greet(_.pkg.Clazz.whereAmI())
+greet('greeting Dima')
 // if (env.CHANGE_FORK == null) {
 //   def lib = library identifier: 'global@snapshot', retriever: legacySCM(scm)
 //   greet(lib.pkg.Clazz.whereAmI())
