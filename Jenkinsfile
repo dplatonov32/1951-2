@@ -1,5 +1,5 @@
 // def lib = library identifier: 'folder@snapshot', retriever: legacySCM(scm)    
-@Library('folder')_
+@Library('folder@test')_
 greet('greeting Dima')
 // if (env.CHANGE_FORK == null) {
 //   def lib = library identifier: 'global@snapshot', retriever: legacySCM(scm)
