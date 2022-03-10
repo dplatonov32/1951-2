@@ -1,2 +1,2 @@
 package pkg;
-class Clazz {static String whereAmI() {println('master v2.1')}}
+class Clazz {static String whereAmI() {println('forked master')}}
